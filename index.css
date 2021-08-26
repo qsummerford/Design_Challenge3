@@ -1,0 +1,83 @@
+/* Original Code */
+
+body {
+    background: auto;
+}
+
+.container {
+    border-left: auto;
+}
+
+p {
+    color: auto;
+}
+
+input[type=text], textarea {
+    background: auto;
+    border-bottom: auto;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: auto;
+}
+
+input[type=submit] {
+    background: auto;
+}
+
+/* My Solution */
+
+body {
+    background: auto;
+}
+
+.container {
+    border-left: 0;
+}
+
+p {
+    color: #90e0ef;
+}
+
+input[type=text], textarea {
+    background: white;
+    border-bottom: 0;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid #ffffff;
+}
+
+input[type=submit] {
+    background: #90e0ef;
+    color: black;
+}
+
+/* Instructor's Code */
+
+body {
+    background: white;
+    color: #1C2022;
+}
+
+.container {
+    border-left: .7em  solid #FF01FF;
+}
+
+p {
+    color: #2B3337;
+}
+
+input[type=text], textarea {
+    background: white;
+    border-bottom: 1px solid #506671;
+    color: #2B3337;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid #FF01FF;
+}
+
+input[type=submit] {
+    background: #FF01FF;
+}
